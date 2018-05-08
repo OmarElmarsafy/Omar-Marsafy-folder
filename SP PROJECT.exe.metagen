@@ -1,0 +1,51 @@
+  SPPROJECT.all_trans_one_user.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.choosetransaction.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.daily_transaction.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.firstform.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.LOGIN.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.MyForm.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.report_all.resources - Embedded, ContainedInManifestFile, 
+  SPPROJECT.signup.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SP PROJECT, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SPPROJECT.report_all: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.daily_transaction: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.all_trans_one_user: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.choosetransaction: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String n : Public
+  Methods:
+    read_last_line(): PrivateScope, Public, HideBySig
+Class SPPROJECT.signup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.LOGIN: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SPPROJECT.firstform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
